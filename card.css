@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,500;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* Container */
+.container {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 50vh;
+    height: 12rem;
+    margin: 5vh auto;
+    background: linear-gradient(45deg, #9595ADB5, #000000E5);
+}
+
+/* Name Styling */
+.name {
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #DFE5EBCE;
+    font-family: 'Roboto Mono', monospace;
+    font-weight:100
+}
+
+
+/* Job Title Styling */
+.job-title {
+    text-align: center;
+    padding: 0 auto auto;
+    font-size: 0.8rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: #DFE5EBCE;
+}
+
+
+/* Bio Styling */
+.bio {
+    text-align: center;
+    max-width: 60ch;
+    color: #F2F9FF5E;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    font-weight: 100;
+}
